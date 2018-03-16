@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "TurboTax Ungamify",
+  "description": "Automatically hides the refund tracker on TurboTax.",
+  "version": "1.0",
+
+  "content_scripts": [{
+		"matches": ["https://*.intuit.com/turbotax/ttonline.htm*"],
+		"css": ["style.css"]
+	}]
+}
